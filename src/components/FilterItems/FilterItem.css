@@ -1,0 +1,16 @@
+.filterItems{
+  display: flex;
+justify-content: space-around;
+ align-items: center;
+ background-color:white;
+ border-radius: 10px;
+ height: 60px;
+ margin-bottom: 30px;
+}
+
+.items{
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+

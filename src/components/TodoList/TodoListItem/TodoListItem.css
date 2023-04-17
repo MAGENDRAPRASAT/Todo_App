@@ -1,0 +1,66 @@
+.item-card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 1px solid black;
+   
+    border-radius: 5px;
+}
+
+.card-title{
+    margin-left: 20px;
+}
+
+.item-card.high{
+    border-left: 6px solid #E01717;
+}
+.item-card.medium{
+    border-left: 6px solid #ffa800;
+}
+.item-card.low{
+    border-left: 6px solid #44B400;
+}
+
+
+.badge{
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 4px 10px;
+    margin-right: 20px;
+    width: 70px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item-card.high .badge{
+    color: #E01717;
+    background-color: #E0171733;
+}
+.item-card.medium .badge{
+    color: #ffa800;
+    background-color: #ffa80033;
+}
+.item-card.low .badge{
+    color: #44B400;
+    background-color: #44B40033;
+}
+
+.card-title.strike{
+    text-decoration: line-through;
+}
+
+.edit-btn{
+    margin-right: 5px;
+}
